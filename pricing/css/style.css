@@ -1,0 +1,27 @@
+section h1{
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+}
+section p{
+    text-align: center;
+}
+section .cards{
+    display: flex;
+    justify-content: center;
+    line-height: 48px !important;
+}
+section{
+    line-height: 130px;
+}
+
+.bg-white{
+    background-color: white;
+}
+.shadow-sm{
+    box-shadow: #ddd;
+}
+.border-top{
+    border-top: 1px solid #ddd !important;
+    box-sizing: border-box;
+}
