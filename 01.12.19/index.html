@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/abe18c84ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>DragDrop</title>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="dropArea d-flex justify-content-center align-items-center">
+                <div class="form-group">
+                    <input type="file" id="upload" multiple class="form-control d-none">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                </div>
+            </div>
+
+        </div>
+        <button class="btn btn-lg btn-outline-danger d-none mt-3" id="removeAll">Remove All</button>
+        <button class="btn btn-lg btn-outline-danger mt-3 d-none" id="removeItem">Remove Item</button>
+        <table class="table table-light mt-5" id="table">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Size</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
